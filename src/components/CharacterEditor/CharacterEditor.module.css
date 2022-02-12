@@ -1,13 +1,19 @@
 .characterEditor {
+  width: 100%;
+  position: relative;
   padding-top: 128px;
   padding-bottom: 64px;
+  opacity: 1.0;
 }
 
 .maxWidthWrapper {
+  position: relative;
+  width: 100%;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +30,15 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  min-height: 500px;
+  width: 35%;
+  right: 0;
+  top: 100px;
 }
 
 .controlColumn {
+  width: 50%;
 }
+
+
