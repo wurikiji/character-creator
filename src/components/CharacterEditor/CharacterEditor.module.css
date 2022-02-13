@@ -41,4 +41,20 @@
   width: 50%;
 }
 
+@media screen and (max-width: 767px) {
+  .controlColumn {
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    overflow: scroll;
+    position: fixed;
+    bottom: 50px;
+  }
+.characterWrapper {
+  position: initial;
+  min-height: 500px;
+  width: 35%;
+}
+}
 
